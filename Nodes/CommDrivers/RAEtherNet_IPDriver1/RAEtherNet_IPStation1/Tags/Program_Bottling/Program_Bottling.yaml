@@ -1,0 +1,12 @@
+Name: 'Program:Bottling'
+Type: FolderType
+Children:
+- Name: Simulation_BottlingManualEnabled
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Bottling.Simulation_BottlingManualEnabled"

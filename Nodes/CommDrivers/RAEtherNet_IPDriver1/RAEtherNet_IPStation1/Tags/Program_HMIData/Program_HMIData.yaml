@@ -1,0 +1,652 @@
+Name: 'Program:HMIData'
+Type: FolderType
+Children:
+- Name: Count1000
+  Id: g=9c8d895f4e3a76874e9eed2eb1d3c2bd
+  Type: Count1000_INT
+  DataType: Count1000_INT
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+  Value: [{"TypeId":{"IdType":2,"Id":"99ea96c79f08b23e1368056d8d624e7e","Namespace":9},"Body":{"EnableIn":false,"EnableOut":false,"Max_INT":0,"Min_INT":0,"Sim_Enable":false}},{"TypeId":{"IdType":2,"Id":"99ea96c79f08b23e1368056d8d624e7e","Namespace":9},"Body":{"EnableIn":false,"EnableOut":false,"Max_INT":0,"Min_INT":0,"Sim_Enable":false}},{"TypeId":{"IdType":2,"Id":"99ea96c79f08b23e1368056d8d624e7e","Namespace":9},"Body":{"EnableIn":false,"EnableOut":false,"Max_INT":0,"Min_INT":0,"Sim_Enable":false}},{"TypeId":{"IdType":2,"Id":"99ea96c79f08b23e1368056d8d624e7e","Namespace":9},"Body":{"EnableIn":false,"EnableOut":false,"Max_INT":0,"Min_INT":0,"Sim_Enable":false}},{"TypeId":{"IdType":2,"Id":"99ea96c79f08b23e1368056d8d624e7e","Namespace":9},"Body":{"EnableIn":false,"EnableOut":false,"Max_INT":0,"Min_INT":0,"Sim_Enable":false}},{"TypeId":{"IdType":2,"Id":"99ea96c79f08b23e1368056d8d624e7e","Namespace":9},"Body":{"EnableIn":false,"EnableOut":false,"Max_INT":0,"Min_INT":0,"Sim_Enable":false}},{"TypeId":{"IdType":2,"Id":"99ea96c79f08b23e1368056d8d624e7e","Namespace":9},"Body":{"EnableIn":false,"EnableOut":false,"Max_INT":0,"Min_INT":0,"Sim_Enable":false}},{"TypeId":{"IdType":2,"Id":"99ea96c79f08b23e1368056d8d624e7e","Namespace":9},"Body":{"EnableIn":false,"EnableOut":false,"Max_INT":0,"Min_INT":0,"Sim_Enable":false}},{"TypeId":{"IdType":2,"Id":"99ea96c79f08b23e1368056d8d624e7e","Namespace":9},"Body":{"EnableIn":false,"EnableOut":false,"Max_INT":0,"Min_INT":0,"Sim_Enable":false}},{"TypeId":{"IdType":2,"Id":"99ea96c79f08b23e1368056d8d624e7e","Namespace":9},"Body":{"EnableIn":false,"EnableOut":false,"Max_INT":0,"Min_INT":0,"Sim_Enable":false}}]
+  Children:
+  - Name: 0
+    Type: Count1000_INT
+    DataType: Count1000_INT
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "99ea96c79f08b23e1368056d8d624e7e",
+       "Namespace": 9
+      },
+      "Body": {
+       "EnableIn": false,
+       "EnableOut": false,
+       "Max_INT": 0,
+       "Min_INT": 0,
+       "Sim_Enable": false
+      }
+     }
+    Children:
+    - Name: EnableIn
+      Id: g=989fe4b4743547ca80783f90e4c97b4c
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[0].EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[0].EnableOut"
+    - Name: Max_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[0].Max_INT"
+    - Name: Min_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[0].Min_INT"
+    - Name: Sim_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[0].Sim_Enable"
+  - Name: 1
+    Type: Count1000_INT
+    DataType: Count1000_INT
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "99ea96c79f08b23e1368056d8d624e7e",
+       "Namespace": 9
+      },
+      "Body": {
+       "EnableIn": false,
+       "EnableOut": false,
+       "Max_INT": 0,
+       "Min_INT": 0,
+       "Sim_Enable": false
+      }
+     }
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[1].EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[1].EnableOut"
+    - Name: Max_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[1].Max_INT"
+    - Name: Min_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[1].Min_INT"
+    - Name: Sim_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[1].Sim_Enable"
+  - Name: 2
+    Type: Count1000_INT
+    DataType: Count1000_INT
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "99ea96c79f08b23e1368056d8d624e7e",
+       "Namespace": 9
+      },
+      "Body": {
+       "EnableIn": false,
+       "EnableOut": false,
+       "Max_INT": 0,
+       "Min_INT": 0,
+       "Sim_Enable": false
+      }
+     }
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[2].EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[2].EnableOut"
+    - Name: Max_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[2].Max_INT"
+    - Name: Min_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[2].Min_INT"
+    - Name: Sim_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[2].Sim_Enable"
+  - Name: 3
+    Type: Count1000_INT
+    DataType: Count1000_INT
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "99ea96c79f08b23e1368056d8d624e7e",
+       "Namespace": 9
+      },
+      "Body": {
+       "EnableIn": false,
+       "EnableOut": false,
+       "Max_INT": 0,
+       "Min_INT": 0,
+       "Sim_Enable": false
+      }
+     }
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[3].EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[3].EnableOut"
+    - Name: Max_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[3].Max_INT"
+    - Name: Min_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[3].Min_INT"
+    - Name: Sim_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[3].Sim_Enable"
+  - Name: 4
+    Type: Count1000_INT
+    DataType: Count1000_INT
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "99ea96c79f08b23e1368056d8d624e7e",
+       "Namespace": 9
+      },
+      "Body": {
+       "EnableIn": false,
+       "EnableOut": false,
+       "Max_INT": 0,
+       "Min_INT": 0,
+       "Sim_Enable": false
+      }
+     }
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[4].EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[4].EnableOut"
+    - Name: Max_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[4].Max_INT"
+    - Name: Min_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[4].Min_INT"
+    - Name: Sim_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[4].Sim_Enable"
+  - Name: 5
+    Type: Count1000_INT
+    DataType: Count1000_INT
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "99ea96c79f08b23e1368056d8d624e7e",
+       "Namespace": 9
+      },
+      "Body": {
+       "EnableIn": false,
+       "EnableOut": false,
+       "Max_INT": 0,
+       "Min_INT": 0,
+       "Sim_Enable": false
+      }
+     }
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[5].EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[5].EnableOut"
+    - Name: Max_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[5].Max_INT"
+    - Name: Min_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[5].Min_INT"
+    - Name: Sim_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[5].Sim_Enable"
+  - Name: 6
+    Type: Count1000_INT
+    DataType: Count1000_INT
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "99ea96c79f08b23e1368056d8d624e7e",
+       "Namespace": 9
+      },
+      "Body": {
+       "EnableIn": false,
+       "EnableOut": false,
+       "Max_INT": 0,
+       "Min_INT": 0,
+       "Sim_Enable": false
+      }
+     }
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[6].EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[6].EnableOut"
+    - Name: Max_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[6].Max_INT"
+    - Name: Min_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[6].Min_INT"
+    - Name: Sim_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[6].Sim_Enable"
+  - Name: 7
+    Type: Count1000_INT
+    DataType: Count1000_INT
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "99ea96c79f08b23e1368056d8d624e7e",
+       "Namespace": 9
+      },
+      "Body": {
+       "EnableIn": false,
+       "EnableOut": false,
+       "Max_INT": 0,
+       "Min_INT": 0,
+       "Sim_Enable": false
+      }
+     }
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[7].EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[7].EnableOut"
+    - Name: Max_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[7].Max_INT"
+    - Name: Min_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[7].Min_INT"
+    - Name: Sim_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[7].Sim_Enable"
+  - Name: 8
+    Type: Count1000_INT
+    DataType: Count1000_INT
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "99ea96c79f08b23e1368056d8d624e7e",
+       "Namespace": 9
+      },
+      "Body": {
+       "EnableIn": false,
+       "EnableOut": false,
+       "Max_INT": 0,
+       "Min_INT": 0,
+       "Sim_Enable": false
+      }
+     }
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[8].EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[8].EnableOut"
+    - Name: Max_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[8].Max_INT"
+    - Name: Min_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[8].Min_INT"
+    - Name: Sim_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[8].Sim_Enable"
+  - Name: 9
+    Type: Count1000_INT
+    DataType: Count1000_INT
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "99ea96c79f08b23e1368056d8d624e7e",
+       "Namespace": 9
+      },
+      "Body": {
+       "EnableIn": false,
+       "EnableOut": false,
+       "Max_INT": 0,
+       "Min_INT": 0,
+       "Sim_Enable": false
+      }
+     }
+    Children:
+    - Name: EnableIn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[9].EnableIn"
+    - Name: EnableOut
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[9].EnableOut"
+    - Name: Max_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[9].Max_INT"
+    - Name: Min_INT
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[9].Min_INT"
+    - Name: Sim_Enable
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:HMIData.Count1000[9].Sim_Enable"

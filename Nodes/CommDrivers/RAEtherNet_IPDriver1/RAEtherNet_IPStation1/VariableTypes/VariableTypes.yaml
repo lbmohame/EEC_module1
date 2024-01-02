@@ -1,0 +1,69 @@
+Name: VariableTypes
+Type: FolderType
+Children:
+- Name: Count1000_INT
+  Id: g=ed83b4fe2978cbb07a9583a064af7fc2
+  Supertype: TagStructure
+  DataType: Count1000_INT
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "99ea96c79f08b23e1368056d8d624e7e",
+     "Namespace": 9
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Max_INT": 0,
+     "Min_INT": 0,
+     "Sim_Enable": false
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EnableOut"
+  - Name: Max_INT
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Max_INT"
+  - Name: Min_INT
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Min_INT"
+  - Name: Sim_Enable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sim_Enable"
